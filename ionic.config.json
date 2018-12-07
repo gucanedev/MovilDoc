@@ -1,0 +1,7 @@
+{
+  "name": "Antiagregg",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
