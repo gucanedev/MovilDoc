@@ -35,8 +35,7 @@ $app-direction: ltr;
   align-items: center!important;
 }
 .botonPregunta:active{
-  background-color: #ff4d4d
-  !important;
+  background-color: #ff4d4d !important;
   color:white !important;
 }
 
@@ -83,7 +82,6 @@ $colors: (
   box-shadow: 0 0 5px gray;
   display: block;
   margin-top:40px;
-   background-image: url('/src/assets/imgs/logo.jpg');
 }
 .preguntas{
   position:fixed;
