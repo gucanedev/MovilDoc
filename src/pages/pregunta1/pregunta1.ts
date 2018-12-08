@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, animate } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {List1Page } from '../list1/list1';
+import { Pregunta2Page } from '../pregunta2/pregunta2';
+
 /**
  * Generated class for the Pregunta1Page page.
  *
@@ -12,6 +14,7 @@ import {List1Page } from '../list1/list1';
 @Component({
   selector: 'page-pregunta1',
   templateUrl: 'pregunta1.html',
+  entryComponents:[ Pregunta2Page ]
 })
 export class Pregunta1Page {
 
@@ -23,7 +26,10 @@ export class Pregunta1Page {
   }
   backPage(){
     console.log("perro");
-    this.navCtrl.pop();
+    this.navCtrl.pop({duration:150});
+  }
+  pregunta2(){
+    this.navCtrl.push(Pregunta2Page);
   }
 
   list1question(){

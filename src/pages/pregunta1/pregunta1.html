@@ -7,13 +7,25 @@
 <ion-header class="headerApp">
       <img class="headerImage" src="assets/imgs/logo.jpg">
 
-  <ion-label  (click)="backPage()" class="preguntas">Edad del paciente:</ion-label>
+  <ion-label (click)="backPage()" class="preguntas" style="padding-top:110px;">Edad del paciente:</ion-label>
 
 </ion-header>
 
 
 <ion-content padding class="vertical-align-content">
-    <button class="botonPregunta" (click)="list1question()" center ion-button color="light">Menor a 75 Años</button>
-    <button class="botonPregunta" ion-button color="light">Mayor a 75 Años</button>
+  <ion-grid>
+    <ion-row>
+      <ion-col center>
+          <button class="botonPregunta" (click)="pregunta2()" center ion-button color="light">Menor a 75 Años</button>
+
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col center>
+            <button class="botonPregunta"  (click)="list1question()" ion-button color="light">Mayor a 75 Años</button>
+
+        </ion-col>
+      </ion-row>
+  </ion-grid>
 
 </ion-content>
