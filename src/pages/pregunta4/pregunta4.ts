@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Pregunta3Page } from '../pregunta3/pregunta3';
-import { Pregunta4Page } from '../pregunta4/pregunta4';
+import { Resultado2Page } from '../resultado2/resultado2';
+import { Resultado3Page } from '../resultado3/resultado3';
 
 /**
- * Generated class for the Pregunta2Page page.
+ * Generated class for the Pregunta4Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,25 +12,27 @@ import { Pregunta4Page } from '../pregunta4/pregunta4';
 
 @IonicPage()
 @Component({
-  selector: 'page-pregunta2',
-  templateUrl: 'pregunta2.html',
+  selector: 'page-pregunta4',
+  templateUrl: 'pregunta4.html',
 })
-export class Pregunta2Page {
+export class Pregunta4Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
   backPage(){
     this.navCtrl.pop();
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Pregunta2Page');
+    console.log('ionViewDidLoad Pregunta4Page');
   }
-  pregunta3(){
-    this.navCtrl.push(Pregunta3Page);
+  resultado2(){
+    this.navCtrl.push(Resultado2Page);
   }
-  pregunta4(){
-    this.navCtrl.push(Pregunta4Page);
+  resultado3(){
+    this.navCtrl.push(Resultado3Page);
 
   }
+  
 }

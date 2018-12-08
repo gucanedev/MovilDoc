@@ -7,13 +7,13 @@
 <ion-header class="headerApp">
     <img class="headerImage" src="assets/imgs/logo.jpg">
 
-<ion-label  (click)="backPage()" class="preguntas">¿El paciente toma o requiere tomar <br>anticoagulante oral por otra indicación?</ion-label>
+<ion-label  (click)="backPage()" style="padding-top:110px;" class="preguntas">Clasificación de riesgo:</ion-label>
 
 </ion-header>
 
 
 <ion-content padding class="vertical-align-content">
-  <button class="botonPregunta" (click)="pregunta3()" ion-button color="light">SI</button>
-  <button class="botonPregunta" (click)="pregunta4()" ion-button color="light">NO</button>
+  <button class="botonPregunta" (click)="resultado1()" ion-button color="light">RIESGO BAJO</button>
+  <button class="botonPregunta" (click)="pregunta4()" ion-button color="light">RIESGO <BR>INTERMEDIO / ALTO</button>
 
 </ion-content>
