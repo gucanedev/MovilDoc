@@ -1,5 +1,6 @@
 import { Component, animate } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {List1Page } from '../list1/list1';
 import { Pregunta2Page } from '../pregunta2/pregunta2';
 
 /**
@@ -29,5 +30,9 @@ export class Pregunta1Page {
   }
   pregunta2(){
     this.navCtrl.push(Pregunta2Page);
+  }
+
+  list1question(){
+    this.navCtrl.push(List1Page);
   }
 }

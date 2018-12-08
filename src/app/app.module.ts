@@ -14,8 +14,11 @@ import { Resultado1Page } from '../pages/resultado1/resultado1';
 import { Resultado2Page } from '../pages/resultado2/resultado2';
 import { Resultado3Page } from '../pages/resultado3/resultado3';
 
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { List2Page } from '../pages/list2/list2';
+import { Result1listPage } from '../pages/result1list/result1list';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     Pregunta1Page
     ,List1Page
-    ,Pregunta2Page
+    ,Pregunta2Page,
+    List2Page,
+    Result1listPage
     ,Pregunta3Page
     ,Pregunta4Page
     ,Resultado1Page
@@ -42,7 +47,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     Pregunta1Page,
     List1Page
-    ,Pregunta2Page
+    ,Pregunta2Page,
+    List2Page,
+    Result1listPage
     ,Pregunta3Page
     ,Pregunta4Page
     ,Resultado1Page

@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { List2Page } from '../list2/list2';
 
 /**
- * Generated class for the List1Page page.
+ * Generated class for the Result1listPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import { List2Page } from '../list2/list2';
 
 @IonicPage()
 @Component({
-  selector: 'page-list1',
-  templateUrl: 'list1.html',
+  selector: 'page-result1list',
+  templateUrl: 'result1list.html',
 })
-export class List1Page {
+export class Result1listPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
- 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad List1Page');
-  }
-  nextList2(){
-    this.navCtrl.push(List2Page);
+    console.log('ionViewDidLoad Result1listPage');
   }
 
 }
