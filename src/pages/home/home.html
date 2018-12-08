@@ -1,9 +1,10 @@
-<ion-header style="height: 150px;background-color:#488aff;">
+<ion-header class="headerApp">
     
      <!-- <img style="height: 90px;width: 50px;;background-color:transparent;padding-top: 40px;margin-left: 10px;" src="assets/imgs/logo.jpg">  -->
-     <img class="imageInicio" src="assets/imgs/logo.jpg">
+     <!-- <img class="imageInicio" src="assets/imgs/logo.jpg"> -->
 
-    <ion-label style="text-align: left;padding-top: 10px;">ANTIAGREGG™ - ACS</ion-label>
+    <ion-label style="position:fixed;text-align: left;padding-top: 90px;">ANTIAGREGG™ - ACS</ion-label>
+
 </ion-header>
 
 <ion-content padding>
@@ -11,6 +12,6 @@
 
  <br>
   <!-- <button ion-button secondary menuToggle color="primary">Toggle Menu</button> -->
-  <button class="buttonInicio" ion-button color="light">INICIAR</button>
+  <button class="buttonInicio" (click)="pregunta1()" ion-button color="light">INICIAR</button>
 
 </ion-content>

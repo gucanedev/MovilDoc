@@ -22,7 +22,23 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-
+.botonPregunta{
+  margin-left: 20px !important;
+  margin-top:10px !important;
+  height: 70px !important;
+  width: 230px !important;
+  // align-content: center !important;
+  background-color: #d9d9d9 !important;
+  font-weight: bold !important;
+  display: flex!important;
+  align-content: center!important;
+  align-items: center!important;
+}
+.botonPregunta:active{
+  background-color: #ff4d4d
+  !important;
+  color:white !important;
+}
 
 
 // Named Color Variables
@@ -53,8 +69,31 @@ $colors: (
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 
+.headerApp{
+  height: 150px;
+  background-color:#1066EF;
+}
+.headerImage {
+    position: fixed;
+  margin-left: 12px;
+   height: 50px; 
+   width: 50px; 
+ // border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px gray;
+  display: block;
+  margin-top:40px;
+   background-image: url('/src/assets/imgs/logo.jpg');
+}
+.preguntas{
+  position:fixed;
+  text-align: left;
+  padding-left:10px;
+  padding-top: 100px;
+  color:white;
+  font-weight: bold;
 
-
+}
 
 // App Windows Variables
 // --------------------------------------------------
