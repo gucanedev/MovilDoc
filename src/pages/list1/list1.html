@@ -7,7 +7,7 @@
 
 <ion-header class="headerApp">
   <img class="headerImage" src="assets/imgs/logo.jpg">
-  <ion-label  class="preguntas">El paciente tiene uno
+  <ion-label (click)="backPage()"  class="preguntas" style="padding-top:27%">El paciente tiene uno
     ó más de los siguiente:</ion-label>
 
 </ion-header>
@@ -20,33 +20,33 @@
       Characters
     </ion-list-header> -->
     <ion-item>
-      <ion-label > Uso de inhibidor de glucoproteina IIb-IIIa</ion-label>
-      <ion-checkbox color="danger" checked="true"  item-end></ion-checkbox>
+      <ion-label style="margin-left:5%;"> Uso de inhibidor de glucoproteina IIb-IIIa</ion-label>
+      <ion-checkbox mode="ios" color="danger" checked="true" item-end></ion-checkbox>
+    </ion-item>
+    <ion-item  style="background-color:#bfbfbf !important;">
+      <ion-label style="margin-left:5%;">Depuración renal de creatinina < 30 ml/min</ion-label>
+      <ion-checkbox mode="ios" mode="ios"  color="danger" checked="false"  item-end></ion-checkbox>
     </ion-item>
     <ion-item>
-      <ion-label>Depuración renal de creatinina < 30 ml/min</ion-label>
-      <ion-checkbox color="danger" checked="false"  item-end></ion-checkbox>
+      <ion-label style="margin-left:5%;">EPOC severo</ion-label>
+      <ion-checkbox mode="ios" color="danger" checked="false" item-end></ion-checkbox>
+    </ion-item>
+    <ion-item  style="background-color:#bfbfbf !important;">
+      <ion-label style="margin-left:5%;">Bloqueo A-V de 2do grado o mayor</ion-label>
+      <ion-checkbox mode="ios" color="danger" checked="false" item-end></ion-checkbox>
     </ion-item>
     <ion-item>
-      <ion-label>EPOC severo</ion-label>
-      <ion-checkbox color="danger" checked="false" item-end></ion-checkbox>
-    </ion-item>
-    <ion-item>
-      <ion-label>Bloqueo A-V de 2do grado o mayor</ion-label>
-      <ion-checkbox color="danger" checked="false" item-end></ion-checkbox>
-    </ion-item>
-    <ion-item>
-      <ion-label>Insuficiencia hepática (CHILD-PUGH=3)</ion-label>
-      <ion-checkbox color="danger" checked="false" item-end></ion-checkbox>
+      <ion-label style="margin-left:5%;">Insuficiencia hepática (CHILD-PUGH=3)</ion-label>
+      <ion-checkbox mode="ios"  color="danger" checked="false" item-end></ion-checkbox>
     </ion-item>
   </ion-list>
 </ion-content>
 
-<ion-footer class="footerApp1" >
+<ion-footer class="footer" >
     
 
-  <button class="Next"  (click)="nextList2()" ion-button color="light">
-      <ion-icon name="arrow-dropright"></ion-icon>
+  <button class="buttonHome" (click)="nextList2()" round ion-button icon-only color="light">
+      <ion-icon name="arrow-forward"></ion-icon>
   </button>
 
  

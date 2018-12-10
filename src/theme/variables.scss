@@ -23,16 +23,18 @@ $app-direction: ltr;
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
 .botonPregunta{
-  margin-left: 20px !important;
-  margin-top:10px !important;
-  height: 70px !important;
-  width: 230px !important;
+  margin-left: 19% !important;
+  margin-top:5% !important;
+  height: 10vh !important;
+  width: 60vw !important;
   // align-content: center !important;
   background-color: #d9d9d9 !important;
   font-weight: bold !important;
   display: flex!important;
   align-content: center!important;
   align-items: center!important;
+  border-radius:8px !important;
+
 }
 .botonPregunta:active{
   background-color: #ff4d4d !important;
@@ -73,38 +75,54 @@ $colors: (
  background: #BFBFBF
 }
 .headerApp{
-  height: 150px;
+  height: 22%;
   background-color:#1066EF;
 }
 .headerImage {
     position: fixed;
-  margin-left: 12px;
-   height: 50px; 
-   width: 50px; 
+  margin-left: 4%;
+   height: 9vh; 
+   width: 15vw; 
  // border: 2px solid #fff;
   border-radius: 50%;
   box-shadow: 0 0 5px gray;
   display: block;
-  margin-top:40px;
+  margin-top:7%;
 }
 .preguntas{
   position:fixed;
   text-align: left;
-  padding-left:10px;
-  padding-top: 90px;
+  padding-left:3%;
+  padding-top: 23%;
   color:white;
   font-weight: bold;
+  font-size: 100%;
 }
 
+.buttonHome{
+  font-size: 95% !important;
+  background-color: white !important;
+  color:#999999 !important;
+
+}
+.footer{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 17vh !important;
+  background-color: #bfbfbf;
+}
+.buttonHome:active{
+  background-color: #999999 !important;
+  color:white !important;
+}
 // App Windows Variables
 // --------------------------------------------------
 // Windows only Sass variables can go here
 
 
-
-
 // App Theme
-// --------------------------------------------------
+// -----------------------3321---------------------------
 // Ionic apps can have different themes applied, which can
 // then be future customized. This import comes last
 // so that the above variables are used and Ionic's

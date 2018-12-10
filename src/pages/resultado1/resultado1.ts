@@ -26,5 +26,7 @@ export class Resultado1Page {
   home(){
     this.navCtrl.setRoot(HomePage);
   }
-
+  backPage(){
+    this.navCtrl.pop();
+  }
 }

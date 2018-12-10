@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the Result1listPage page.
@@ -21,5 +22,11 @@ export class Result1listPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad Result1listPage');
   }
+backPage(){
+  this.navCtrl.pop();
+}
 
+home(){
+  this.navCtrl.setRoot(HomePage);
+}
 }

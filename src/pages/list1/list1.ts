@@ -26,5 +26,7 @@ export class List1Page {
   nextList2(){
     this.navCtrl.push(List2Page);
   }
-
+  backPage(){
+    this.navCtrl.pop();
+  }
 }

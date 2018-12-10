@@ -34,6 +34,8 @@ export class MyApp {
       this.statusBar.styleDefault();
       this.statusBar.overlaysWebView(true);
       this.statusBar.styleBlackTranslucent();
+      this.statusBar.show();
+
       this.splashScreen.hide();
     });
   }

@@ -1,18 +1,36 @@
 <!--
-  Generated template for the Resultado3Page page.
+  Generated template for the Pregunta1Page page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
+<ion-header class="headerApp">
+    <img class="headerImage" src="assets/imgs/logo.jpg">
 
-  <ion-navbar>
-    <ion-title>resultado3</ion-title>
-  </ion-navbar>
+<ion-label  (click)="backPage()" style="padding-top:27%;" class="preguntas">RECOMENDACIÓN:</ion-label>
 
 </ion-header>
 
+<ion-content style="background-color:#f2f2f2">
+  <!-- <button class="botonPregunta" (click)="resultado2()" ion-button color="light">CON elevación del <br>segmento ST</button> -->
+  <!-- <button class="botonPregunta" (click)="resultado3()" ion-button color="light">SIN elevación del <br>segmento ST</button> -->
+  <div style="background-color:#ff4d4d;width:100%;height: 6vh;">
+      <ion-label style="color:white;font-size: 125%;padding:3%;font-weight: bold;">CLOPIDOGREL 3</ion-label>
 
-<ion-content padding>
+  </div>
+  <ion-label style="padding-top:2%;font-size: 10px;margin-left:3%;font-weight: bold;">carga 300mg vo <br>(continuar 75mg al dia)</ion-label>
+  <ion-label style="color:black;font-size: 125%;padding:3%;font-weight: bold;">SEGUNDA OPCIÓN:</ion-label>
+
+  <div style="background-color:#1ac6ff;width:100%;height: 6vh;">
+    <ion-label style="color:black;font-size: 125%;padding:3%;font-weight: bold;">&#9679;TICAGRELOR 3</ion-label>
+
+</div>
+<ion-label style="padding-top:2%;font-size: 10px;margin-left:3%;font-weight: bold;">carga 180mg vo <br>(continuar 90mg cada 12 horas)<br><br>&#9679;Evitar dosis mayores a 100mg/día de aspirina</ion-label>
 
 </ion-content>
+
+<ion-footer class="footer">
+    <button (click)="home()" round ion-button icon-only class="buttonHome">
+        <ion-icon name="home"></ion-icon>
+      </button>
+</ion-footer>

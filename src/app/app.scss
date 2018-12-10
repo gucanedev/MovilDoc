@@ -14,3 +14,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+ion-content{
+    background-color:#f2f2f2 !important;
+}
+
+ion-list {
+    margin-top:-5%!important;
+    margin-left:-8%!important;
+      width: 115%;
+
+  }
+  ion-item{
+      margin-bottom: -1%!important;
+      background-color: #f2f2f2 !important;
+      align-items: center !important;
+      min-height: 1% !important;
+      }
